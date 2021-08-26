@@ -1,27 +1,20 @@
-# CourseManager
+<h1>CourseManager - Desenvolvido com Angular e NodeJs</h1>
+<hr>
+<h2> - Rodando projeto pela primeira vez </h2>
+<hr>
+# Após baixar o projeto, executar o comando " npm i " dentro da pasta raiz do projeto para baixar as dependencias <br>
+# Após baixar o projeto, arrastar a pasta server para fora da raiz do projeto e executar o comando " npm i " dentro da pasta raiz do server <br>
+# Após baixar todas as dependencias necessarias do front e do back rodar o comando npm serve.js na pasta raiz do server para dar start no servidor node <br>
+# Rodar comando "npm start" dentro da pasta raiz do projeto para dar start no front end <br>
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.2.3.
+Feito isso basta acessar a URL:
+```
+"http://localhost:4200/courses"
+```
+<hr>
 
-## Development server
-
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
-
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+<h2> São necessários os seguintes pré-requisitos para a execução do projeto: </h2>
+<hr>
+# Angular CLI v10.2.3<br>
+# NodeJs v14.17.4 ou superior
+<hr>
