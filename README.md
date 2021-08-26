@@ -4,7 +4,7 @@
 <hr>
 # Após baixar o projeto, executar o comando " npm i " dentro da pasta raiz do projeto para baixar as dependencias <br>
 # Após baixar o projeto, arrastar a pasta server para fora da raiz do projeto e executar o comando " npm i " dentro da pasta raiz (server/course-manager-server) <br>
-# Após baixar todas as dependencias necessarias do front e do back rodar o comando npm serve.js na pasta raiz (server/course-manager-server) para dar start no servidor node <br>
+# Após baixar todas as dependencias necessarias do front e do back rodar o comando node serve.js na pasta raiz (server/course-manager-server) para dar start no servidor node <br>
 # Rodar comando "npm start" dentro da pasta raiz do projeto para dar start no front end <br>
 
 Feito isso basta acessar a URL:
