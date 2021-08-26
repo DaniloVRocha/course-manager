@@ -1,0 +1,77 @@
+<h2>Course Info</h2>
+<br>
+
+<form #courseForm='ngForm' *ngIf='course'>
+
+  <div class="form-group row">
+
+    <label class="col-md-2 col-from-label">Name: </label>
+
+    <div class="col-sm-10">
+
+      <input [(ngModel)]="course.name" required name="name" #courseName="ngModel"
+      [ngClass]="{'is-invalid':courseName.invalid}" class="form-control">
+
+      <div class="invalid-feedback">
+          <span>Course Name is Required</span>
+      </div>
+
+    </div>
+
+  </div>
+
+  <div class="form-group row">
+
+    <label class="col-md-2 col-from-label">Price: </label>
+
+    <div class="col-sm-10">
+
+      <input [(ngModel)]="course.price" required name="price" #coursePrice="ngModel"
+      [ngClass]="{'is-invalid':coursePrice.invalid}" type="number" class="form-control">
+
+      <div class="invalid-feedback">
+          <span>Course Price is Required</span>
+      </div>
+
+    </div>
+
+  </div>
+
+  <div class="form-group row">
+
+    <label class="col-md-2 col-from-label">Rating: </label>
+
+    <div class="col-sm-10">
+
+      <input [(ngModel)]="course.rating" required name="rating" #courseRating="ngModel"
+      [ngClass]="{'is-invalid':courseRating.invalid}" type="number" class="form-control">
+
+      <div class="invalid-feedback">
+          <span>Course Rating is Required</span>
+      </div>
+
+    </div>
+
+  </div>
+
+  <div class="form-group row">
+
+    <label class="col-md-2 col-from-label">Description: </label>
+
+    <div class="col-sm-10">
+
+      <textarea [(ngModel)]="course.description" required name="description" #courseDescription="ngModel"
+      [ngClass]="{'is-invalid':courseDescription.invalid}" class="form-control"></textarea>
+
+      <div class="invalid-feedback">
+          <span>Course Rating is Required</span>
+      </div>
+
+    </div>
+
+  </div>
+
+  <button [disabled]="courseForm.invalid" (click)="save()" [routerLink]="['/courses']" class = "btn btn-primary mr-2">Save</button>
+  <button [routerLink] ="['/courses']" class = "btn btn-danger mr-2">Back</button>
+
+</form>
